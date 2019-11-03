@@ -15,14 +15,14 @@ Uppgiften blir sedan att följa upp dessa kampanjer och analysera hur dessa skil
 
 Lämpliga verktyg att använda är Google Analytics, Data Studio / Power BI, och Google Spreadsheet / Excel. Ni väljer själva vilka verktyg ni vill använda...
 
-Använd den process som vi gått igenom i kursen: 
+Använd gärna den process som vi gått igenom i kursen: 
 
 1. Sätt upp mål - Välj ut lämpliga KPI:er
-2. Samla in data - Använd Google Analytics "All Web Site Data" samt "User Id" vyn, samt CSV-fil med extern försäljningsdata och kunddata.
-3. Utforska data - Använd User id för att koppla ihop data ur de olika informationskällorna. Skapa dashboards som visualiserar hur de olika kanalerna/kampanjerna skiljer sig. 
+2. Utforska data - Använd Google Analytics "All Web Site Data" samt "User Id" vyn, samt CSV-fil med extern försäljningsdata och kunddata. Skapa dashboards som visualiserar hur de olika kanalerna/kampanjerna skiljer sig.
+3. Förbered data - Använd User id för att koppla ihop data ur de olika informationskällorna.  
 4. Ta fram modeller - Välj ut några skillnader mellan de olika kanalerna och använd Google spreadsheet / Excel för att undersöka om dessa skillnader är statistiskt säkerställda.
 5. Utvärdera - Vilka insikter kan man dra utifrån detta?
-6. Rapportera - Ta fram rapport och presentation
+6. Genomförande - Ta fram rapport och presentation
 
 
 ## Inlämning:
