@@ -32,8 +32,8 @@ Efter fullföljd kurs ska den studerande ha färdigheter i att
 ## Inlämningsuppgifter
 
 Kunskap, färdigheter och kompetens examineras på följande sätt:
-- 1 muntligt och skriftligt arbete i grupp: I den här laborationen skall ni analysera olika marknadsföringskanaler som referral (banners), social media, nyhetsbrev, och tidning/TV/radio. Verktyg: Data Studio, Power-BI, Google Sheets... 
-- 1 inlämningsuppgift individuell: I den här laborationen skall ni analysera en specifik produkt. Verktyg: Jupyter notebooks
+- [1 muntligt och skriftligt arbete i grupp](uppgift1.md): I den här laborationen skall ni analysera olika marknadsföringskanaler som referral (banners), social media, nyhetsbrev, och tidning/TV/radio. Verktyg: Data Studio, Power-BI, Google Sheets... 
+- [1 inlämningsuppgift individuell](uppgift2.md): I den här laborationen skall ni analysera en specifik produkt. Verktyg: Jupyter notebooks
 
 
 
@@ -41,19 +41,18 @@ Kunskap, färdigheter och kompetens examineras på följande sätt:
 
 **Vecka 1**
 
-- Lektion 1: Introduktion, genomgång av kursplan, [process för dataanalys](process.md), exempel på kanaler
-- Lektion 2: [Implementera taggar](taggar.md); analysera skillnader i Bounce rate från olika kanaler
-- Lektion 3: [Konfigurera Google Analytics](konfigurera_ga.md); analysera måluppfyllnad
-- Lektion 4: [Campaign/acquisition tracking](kampanjer.md); online->offline, offline->online
-- Lektion 5: Kanibalisering? Hur påverkar kanalerna varandra? 
-
+- Lektion 1: Introduktion, genomgång av kursplan, [process för dataanalys](process.md)
+- Lektion 2: [Stegvis datainsamling](stegen.md), [Implementera taggar](steg1.md); analysera skillnader i Bounce rate från olika kanaler
+- Lektion 3: [Konfigurera Google Analytics](steg2.md); analysera måluppfyllnad
+- Lektion 4: [Campaign/acquisition tracking](steg3.md); online->offline, offline->online, Hur påverkar kanalerna varandra?
+- Lektion 5: Grupparbete uppgift 1 
 
 
 **Vecka 2**
-- Lektion 6: [Revenue and uber-intelligence](e-handel.md); e-handelstracking, koppla ihop data, SQL
+- Lektion 6: [Revenue and uber-intelligence](steg4.md); e-handelstracking, koppla ihop data
 - Lektion 7: Attributionsmodellering
-- Lektion 8: [Rich-media tracking](appar.md); mobila appar
-- Lektion 9: [BigQuery](bigquery.md) och data warehousing
+- Lektion 8: [Rich-media tracking](steg5.md); mobila appar
+- Lektion 9: Data warehousing, BigQuery
 - Lektion 10: Presentation av grupparbete
 
 
@@ -62,7 +61,7 @@ Kunskap, färdigheter och kompetens examineras på följande sätt:
 - Lektion 12: Läsa in data; csv-filer, google analytics, databaser, BigQuery
 - Lektion 13: Manipulera data; missing data, combine datasets, select data, aggregate data
 - Lektion 14: Visualisera data; correlations, scatter plots, line plots, bar plots
-- Lektion 15: Introduktion machine learning
+- Lektion 15: Uppgift 2: Genomgång av uppgift och handledning
 
 
 **Vecka 4**
@@ -70,7 +69,7 @@ Kunskap, färdigheter och kompetens examineras på följande sätt:
 - Lektion 17: Målgruppsanalys; k-means, Support Vector Machine
 - Lektion 18: Produktrekommendationer; Collaborative filtering 
 - Lektion 19: Avancerad attributionsmodellering; Markov-modeller
-- Lektion 20: Sammanfattning
+- Lektion 20: Sammanfattning av kurs, handledning uppgift 2
 
 
 
