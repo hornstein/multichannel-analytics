@@ -42,7 +42,7 @@ Kunskap, färdigheter och kompetens examineras på följande sätt:
 **Vecka 1**
 
 - Lektion 1: Introduktion, genomgång av kursplan, [process för dataanalys](process.md)
-- Lektion 2: [Stegvis datainsamling](stegen.md), [Implementera taggar](steg1.md); analysera skillnader i Bounce rate från olika kanaler
+- Lektion 2: [Implementera taggar](steg1.md); analysera skillnader i Bounce rate från olika kanaler
 - Lektion 3: [Konfigurera Google Analytics](steg2.md); analysera måluppfyllnad
 - Lektion 4: [Campaign/acquisition tracking](steg3.md); online->offline, offline->online, Hur påverkar kanalerna varandra?
 - Lektion 5: Grupparbete uppgift 1 
