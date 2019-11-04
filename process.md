@@ -87,7 +87,7 @@ Finns det ett orsakssamband (kausalitet) mellan parametrarna och affärsmålet? 
 Ta fram en lista med insikter och förbättringsförslag. 
 
 
-## Step 6: Deployment / Genomförande
+### Step 6: Deployment / Genomförande
 
 Ta fram en strategi eller handlingsplan för hur förbättringsförslagen skall verkställas. 
 

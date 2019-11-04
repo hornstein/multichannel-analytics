@@ -32,6 +32,6 @@ Lämna in en skriftlig rapport med de viktigaste resultaten och insikterna. Max 
 
 ## Redovisning:
 
-Fredag 13 november kl 9:00-12:00
+Torsdag 14 november kl 9:00-12:00
 
 Varje grupp får 15 min att presentera och 10 min till opponering/frågor
