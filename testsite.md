@@ -25,14 +25,52 @@ Skapa ett konto på github och följ instruktionerna oven för att:
 - Installera git på datorn
 - Använda git för att skicka upp vår sajt till repositoryn
 
+
+### Skapa en repository
+
+Skapa ett nytt repository och ge det namnet ```username.github.io```, i mitt fall ```hornstein.github.io```:
+
+![git repository](images/github_repository.png)
+
+### Installera git på datorn
+
+Nu behöver vi antingen installera git eller Github Desktop (https://desktop.github.com/) för att kunna hämta hem vårt repository till vår lokala dator. På lektionen gick vi igenom hur man använder Github Desktop. Här tänkte jag istället visa hur man installerar git. En fördel med att installera git är att man då kan göra sina commits och pusha koden till repositoryn på Github direkt från Visual Studio Code om man nu använder det för att editera sina filer. 
+
+Kör ni Linux har ni redan git installerat. Kör ni mac är det bara att öppna en terminal och skriva ```git``` så öppnas automatiskt en dialogruta om att installera detta:
+
+![git mac](images/git_mac.png)
+
+Kör ni Windows behöver ni ladda hem och installera git från https://git-scm.com/download/win 
+
+När vi installerat git hämtar vi hem vårt repository från github genom att öppna en terminal och använda git clone:
+
+```
+git clone https://github.com/hornstein/hornstein.github.io.git
+```
+
+Vi har nu fått ett nytt directory där vi kan lägga vår kod. 
+
+![git clone](images/git_clone.png)
+
+Kopiera koden som laddades hem från http://bootstrapmade.com/demo/Squadfree/ till det nya directoryt.
+
+Lägg till filerna till git, gör en commit, och pusha denna till Github med följande kommandon:
+
+```
+git add --all
+git commit -m "Initial commit"
+git push -u origin master
+```
+
+
 Vår sajt skall nu vara online:
 
-![Squad Free website](images/squadfree.png)
+![Squad Free website](images/site.png)
 
 
 ## Lägga till Google Analytics tracking kod
 
-Vi behöver nu skapa en ny property i Google Analytics och hämta hem tracking koden.
+Vi behöver nu skapa en ny property i Google Analytics och hämta hem tracking koden. Använder du Tag Manager behöver enbart skapa upp propertyn och kopiera ditt Google Analytics id och kan hoppa över det här avsnittet och istället kolla hur man lägger till Tag Manager på siten...
 
 ```html
 <!-- Global site tag (gtag.js) - Google Analytics --> 
@@ -58,7 +96,7 @@ kontaktformuläret eller klickar på e-mail-länken.
 Nedan går vi igenom hur man själv kan lägga till tracking-kod för att fånga dessa händelser.
 
 
-## Lägga till PageView-taggar
+### Lägga till PageView-taggar
 
 Vi börjar med att titta på hur man lägger till egna PageView-hits för fånga när användaren navigerar på 
 hemsidan. Dokumentation om detta hittas på:
@@ -121,7 +159,7 @@ mot
 
 Pusha ändringarna till repon för att få in de nya PageView-taggarna på hemsidan.
 
-## Lägga till Event-taggar
+### Lägga till Event-taggar
 
 Våra hemsidor är framför allt utformade för att få besökarna intresserade av våra tjänster så att de 
 kontaktar oss via e-mail eller via det kontaktformulär som ligger på hemsidan.
@@ -177,3 +215,67 @@ gtag('event', 'generate_lead', {'event_category':'Contact us form'});
 
 För vårt email-event finns det tyvärr inget bra sätt att fånga att användaren verkligen skickar mailet 
 utan där får vi helt enkelt nöja oss med att fånga de som klickat på email-länken.
+
+
+## Lägga till Tag Manager
+
+Ett alternativ till att direkt skicka data till Google Analytics är att använda sig av Tag Manager. I det här avsnittet går vi igenom hur man taggar upp sajten med hjälp av Tag Manager.
+
+Det första vi behöver göra är att skapa upp en container för vår site: 
+
+![tag manager container](images/tag_manager_container.png)
+
+När vi gör detta får vi en tracking code som skall läggas in på hemsidan.
+
+![tag manager tracking code](images/tag_manager_tracking_code.png)
+
+Vi lägger till denna i filen index.html. Detta kan göras med valfri texteditor, t.ex. notepad i Windows, men jag rekommenderar att man installerar Visual Studio Code och editerar filerna i denna då den är gjord specifikt för att editera kod. Du hittar Visual Studio Code på:
+
+https://code.visualstudio.com/
+
+I Visual Studio Code öppnar man upp det directory man vill jobba med, i det här fallet det directory där vi clonat hem vårt repository från Github.
+
+Vi klistrar in första delen av trackingkoden direkt under head-taggen i index.html.
+
+```javascript
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P37S9DS');</script>
+<!-- End Google Tag Manager -->
+```
+
+och den andra delen av trackingkoden direkt under body-taggen.
+
+```javascript
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P37S9DS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+```
+
+Resultatet bör se ut som nedan:
+
+![visual studio code](images/visual_studio_code.png)
+
+Har du installerat git kan du nu commita dina ändringar och pusha dessa till github direkt från Visual Studio Code. Annars får du gå in i Github Desktop och göra detta därifrån.
+
+![added tag manager](images/added_tag_manager.png)
+
+### Page View tag
+
+Vi har nu satt upp tag manager för vår site och kan börja tagga upp hemsidan från tag manager och skicka data till Google Analytics. Det första vi gör är att skapa en Page View tag:
+
+![ga tag](images/ga_tag.png)
+
+Surfa in på hemsidan och kontrollera att data kommer in i Google Analytics realtime view:
+
+![ga realtime view](images/ga_realtime_view.png)
+
+Ett problem med att bara använda en Page View tag på onepage-sajt är att vi får en bounce rate på 100% och en time on site på 0s även om användaren stannar kvar och läser allt innehåll på sajten (förutsatt att de inte laddar om sidan innan sessionstiden tajmat ut).
+
+![bounce rate 100](images/bounce_rate_100.png)
+
+För att komma runt detta bör vi lägga till events när användaren scrollar ner på sidan eller klickar på någon av menyknapparna som leder till olika sektioner på sidan.

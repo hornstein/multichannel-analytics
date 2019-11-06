@@ -35,7 +35,7 @@ class MultiChannelCustomerSimulation(unittest.TestCase):
 
         driver = self.driver
 
-        channels=['direct', 'social', 'organic', 'referral_surfineurope', 'referral_boardcad', 'email', 'magazine']
+        channels=['direct', 'social', 'organic', 'referral_surfineurope', 'referral_boardcad', 'email', 'radio']
         group_probabilities_channels=[[0.1, 0.1, 0.1, 0.4, 0.1, 0.2, 0.0],
                                      [0.2, 0.3, 0.1, 0.1, 0.1, 0.1, 0.1],
                                      [0.4, 0.0, 0.1, 0.1, 0.2, 0.0, 0.2]]
@@ -56,10 +56,10 @@ class MultiChannelCustomerSimulation(unittest.TestCase):
             #print response
             #print response['group']
 
-            driver.get(self.base_url+'?utm_source=newsletter&utm_medium=email&utm_campaign=black_friday')
+            driver.get(self.base_url+'?utm_source=newsletter&utm_medium=email&utm_campaign=cyber_monday')
             #driver.get(self.base_url+'?utm_source=newsletter&utm_medium=email&utm_campaign=black_friday&utm_content='+response['group'])
 
-        if channels[my_channel]=='magazine':
+        if channels[my_channel]=='radio':
 
             #jsondata={"name": "gp", "domain": "", "gender": mygender, "year": str(myyear), "zip": str(myzip), "id": myid, "isreturning": isreturning} 
             #res = requests.post('http://localhost:8080/bidrequest',  headers={'Content-Type': 'application/json'}, data=json.dumps(jsondata))
@@ -67,7 +67,9 @@ class MultiChannelCustomerSimulation(unittest.TestCase):
             #print response
             #print response['group']
 
-            driver.get(self.base_url+'?utm_source=gp&utm_medium=newspaper&utm_campaign=superdupersale')
+            driver.get(self.base_url+'/radio')
+
+            #driver.get(self.base_url+'?utm_source=gp&utm_medium=newspaper&utm_campaign=superdupersale')
             #driver.get(self.base_url+'?utm_source=gp&utm_medium=newspaper&utm_campaign=superdupersale&utm_content='+response['group'])
 
         if channels[my_channel]=='social':

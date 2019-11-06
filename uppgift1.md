@@ -1,33 +1,41 @@
 # Uppgift 1 – Kampanjanalys
 
-I den här laborationen skall ni analysera olika marknadsföringskanaler som referral (banners), social media, nyhetsbrev, och tidning/TV/radio.
+Bluebottle surfboards har satt igång en större marknadsföringsinsats som inkluderar kampanjer i flera olika kanaler; referral (banners), social media, nyhetsbrev, och offline-marknadsföring i radio.
 
-Under lektionstid kommer vi tillsammans att ta fram ett antal UTM-taggade länkar som skall kommer att användas för att marknadsföra Bluebottle Surfboards i följande kanaler:
+De har fått hjälp att tagga upp dessa kampanjer enligt följande:
 
 |       | source     | medium | campaign |
 |-------|------------|--------|-------------|
-| Email         | newsletter    | email     | black_friday |
+| Email         | newsletter    | email     | cyber_monday |
 | Banner        | aftonbladet   | banner    | black_friday |
 | Social media  | facebook      | cpc       | winter_getaways |
-| TV/tidning    | gp            | newspaper | superdupersale |
+| Radio         | rix           | radio     | superdupersale |
 
-Uppgiften blir sedan att följa upp dessa kampanjer och analysera hur dessa skiljer sig åt vad gäller kundprofil (ålder, kön, geografi...), Engagemang (Bounce rate, Pageviews...), samt måluppfyllnad. Undersök vilka kanaler som är bäst ur konverteringssynpunkt. Påverkas detta av vilken attributionsmodell som används?
+Företaget vill nu få hjälp att följa upp kampanjerna och utvärdera dessa. De vill kunna styra framtida annonsering för att t.ex.
+- Genererar fler nya besökare och fler nya registreringar.
+- Generera mer försäljning.
+- Rikta annonser utifrån ålder, kön, geografi
+- Få fler engagerade och återkommande besökare
+
+Tillgänglig data:
+- Webbdata från Google Analytics "All Web Site Data" samt "User Id" vyn
+- Kunddata från CRM-systemets databas (finns även replikerad i BigQuery, samt som CSV-fil) 
 
 Lämpliga verktyg att använda är Google Analytics, Data Studio / Power BI, och Google Spreadsheet / Excel. Ni väljer själva vilka verktyg ni vill använda...
 
 Använd gärna den process som vi gått igenom i kursen: 
 
-1. Sätt upp mål - Välj ut lämpliga KPI:er
-2. Utforska data - Använd Google Analytics "All Web Site Data" samt "User Id" vyn, samt CSV-fil med extern försäljningsdata och kunddata. Skapa dashboards som visualiserar hur de olika kanalerna/kampanjerna skiljer sig.
-3. Förbered data - Använd User id för att koppla ihop data ur de olika informationskällorna.  
-4. Ta fram modeller - Välj ut några skillnader mellan de olika kanalerna och använd Google spreadsheet / Excel för att undersöka om dessa skillnader är statistiskt säkerställda.
-5. Utvärdera - Vilka insikter kan man dra utifrån detta?
+1. Sätt upp mål - Omvandla företagets önskemål till mätbara mål och lista den data som krävs för detta.
+2. Utforska data - Läs in data från Google Analytics och CRM-systemet. Skapa dashboards som visualiserar hur de olika kanalerna/kampanjerna skiljer sig. Ta fram hypoteser.
+3. Förbered data - Använd User id för att koppla ihop data ur de olika informationskällorna. Välj ut data som krävs för att testa hypoteserna.  
+4. Ta fram modeller - Välj ut statistiska modeller för att testa hypoteserna. Använd Google spreadsheet / Excel för att undersöka om resultaten är statistiskt säkerställda. Ta fram en lista med insikter.
+5. Utvärdera - Kontrollera att insikterna känns rimliga och att det finns en koppling mellan dessa och de mål som satts upp. Hur kan företaget agera utifrån dessa? Ta fram en handlingsplan för företaget. Hur skall företaget mäta och följa upp att ändringarna ger avsedd effekt? Eventuella riskfaktorer?
 6. Genomförande - Ta fram rapport och presentation
 
 
 ## Inlämning:
 
-Lämna in en skriftlig rapport med de viktigaste resultaten och insikterna. Max 5 sidor. 
+Lämna in en skriftlig rapport med de viktigaste insikterna och visa med data hur ni kommit fram till dessa, samt en handlingsplan för hur företaget skall gå tillväga för att nå målen. Max 5 sidor. 
 
 
 ## Redovisning:
