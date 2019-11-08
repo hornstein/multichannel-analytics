@@ -8,6 +8,7 @@ from selenium.common.exceptions import NoAlertPresentException
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 import unittest, time, re, random
+from random import randint
 
 import numpy as np
 import uuid
@@ -32,7 +33,7 @@ class MultiChannelCustomerSimulation(unittest.TestCase):
 
 
     def enterThroughChannel(self, group, mygender, myyear, myzip, myid, isreturning):
-
+        print (myid)
         driver = self.driver
 
         channels=['direct', 'social', 'organic', 'referral_surfineurope', 'referral_boardcad', 'email', 'radio']
@@ -44,6 +45,11 @@ class MultiChannelCustomerSimulation(unittest.TestCase):
         #print my_channel
 
         #my_channel=5
+        driver.get(self.base_url + 'dummy.html')
+
+        cookie = {'expiry': 1636207927, 'secure': False, 'path': '/', 'name': '_ga', 'value': 'GA1.2.1211559674.' + myid, 'httpOnly': False, 'domain': '.bluebottlesurfboards.com'}
+        
+        driver.add_cookie(cookie)
 
         if channels[my_channel]=='direct':
             driver.get(self.base_url)
@@ -122,6 +128,8 @@ class MultiChannelCustomerSimulation(unittest.TestCase):
             #driver.get('http://www.boardcad.com')
             #driver.find_element_by_xpath('//a[@href="http://www.bluebottlesurfboards.com"]')
 
+        mycookies=driver.get_cookies()
+        print (mycookies)
 
 
     def registerUser(self, group, mygender, myyear, myzip, myemail):
@@ -284,7 +292,8 @@ class MultiChannelCustomerSimulation(unittest.TestCase):
 
         else:
             # generate id
-            myid=str(uuid.uuid4())
+            myid=str(randint(1000000000,9999999999))
+            #myid=str(uuid.uuid4())
 
             # generate email
             myemail="3bitstest+" + myid + "@gmail.com"
