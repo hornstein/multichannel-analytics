@@ -183,7 +183,7 @@ names som finns i dokumentationen ovan. Där hittar man t.ex. generate_lead som 
 som action när personer kontaktar oss. Vi får då följande tag:
 
 ```javascript
-gtag(’event’, ’generate_lead’);
+gtag('event', 'generate_lead');
 ```
 
 Om vi lägger in denna på både kontaktformuläret och e-mail adressen så kan vi dock inte skilja på vilka
