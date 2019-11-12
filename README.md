@@ -28,8 +28,11 @@
 - [E-handelstracking och user id](steg4.md)
 
 **Lektion 7**
+- Exempel på datahantering i Google Sheets: 
 - https://docs.google.com/spreadsheets/d/1dQl75TufiqF6lYW7Hdk3eGMBeAjfTeFFSfJtEKvJgI8/edit?usp=sharing
 
+**Lektion 8**
+- Powerpoint presentation: [Attributionsmodellering](Attributionsmodellering.pdf) 
 
-
-
+**Lektion 9**
+- [Mobila appar och Rich-media tracking](steg5.md)
