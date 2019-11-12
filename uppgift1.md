@@ -37,9 +37,42 @@ Använd gärna den process som vi gått igenom i kursen:
 
 Lämna in en skriftlig rapport med de viktigaste insikterna och visa med data hur ni kommit fram till dessa, samt en handlingsplan för hur företaget skall gå tillväga för att nå målen. Max 5 sidor. 
 
+Söndag 17 november kl 23:59
 
 ## Redovisning:
 
 Torsdag 14 november kl 9:00-12:00
 
-Varje grupp får 15 min att presentera och 10 min till opponering/frågor
+Varje grupp får 10 min att presentera och 5 min till opponering/frågor
+
+
+|   Tid    | redovisning     | opponering | 
+|-------|------------|--------|
+| 9:00-9:20           | Grupp 1          | Grupp 2     | 
+| 9:20-9:40           | Grupp 2          | Grupp 1     | 
+| 9:40-10:00          | Grupp 5          | Grupp 6     | 
+| 10:00-10:20         | Grupp 6          | Grupp 5     | 
+| 10:20-10:40         | Grupp 7          | Grupp 8     | 
+| 10:40-11:00         | Grupp 8          | Grupp 7     | 
+| 11:00-11:20         | Grupp 3          | Grupp 4     | 
+| 11:20-11:40         | Grupp 4          | Grupp 3     | 
+
+
+## Grupper:
+
+Grupp1: Amanda, Saga, Johanna
+
+Grupp 2: Daniel M, Linus E, Andreas, Patrik, Martin
+
+Grupp 3: Leia, Åsa, Jennie, Rebecca
+
+Grupp 4: Mia, Sandra, Josef, Alex
+
+Grupp 5: Linus B, Samuel, Stipe, John
+
+Grupp 6: Ena, Linda, Elin, Daniella
+
+Grupp 7: Linnéa, Sara, Fanny M, Fanny L, Diana, Matilda
+
+Grupp 8: Alexander, Johan, Pär, Erik, Anton
+
