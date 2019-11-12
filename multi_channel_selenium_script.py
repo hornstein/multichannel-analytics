@@ -42,7 +42,8 @@ class MultiChannelCustomerSimulation(unittest.TestCase):
                                      [0.4, 0.0, 0.1, 0.1, 0.2, 0.0, 0.2]]
         my_channel=np.random.choice(7, 1, p=group_probabilities_channels[group])[0]
 
-        #print my_channel
+        print (group)
+        print (channels[my_channel])
 
         #my_channel=5
         driver.get(self.base_url + 'dummy.html')
@@ -197,11 +198,13 @@ class MultiChannelCustomerSimulation(unittest.TestCase):
         #lines = open('username100.txt').read().splitlines()
         #myuser =random.choice(lines)
         #print(myuser)
+        time.sleep(5)
         driver.find_element_by_link_text("Logga in").click()
         driver.find_element_by_id("Email").clear()
         driver.find_element_by_id("Email").send_keys(myemail)
         driver.find_element_by_id("Password").clear()
         driver.find_element_by_id("Password").send_keys("Password123")
+        time.sleep(5)
         driver.find_element_by_xpath('/html/body/div[6]/div[3]/div/div/div/div[2]/div[1]/div[2]/form/div[3]/input').click()
 
     def browseCategory(self, group):
