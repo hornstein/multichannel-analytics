@@ -27,5 +27,9 @@
 **Lektion 6**
 - [E-handelstracking och user id](steg4.md)
 
+**Lektion 7**
+- https://docs.google.com/spreadsheets/d/1dQl75TufiqF6lYW7Hdk3eGMBeAjfTeFFSfJtEKvJgI8/edit?usp=sharing
+
+
 
 
