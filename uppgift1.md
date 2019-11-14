@@ -72,7 +72,9 @@ Grupp 5: Linus B, Samuel, Stipe, John
 
 Grupp 6: Ena, Linda, Elin, Daniella
 
-Grupp 7: Linnéa, Sara, Fanny M, Fanny L, Diana, Matilda
+Grupp 7: Linnéa, Sara, Fanny M, Fanny L, Diana
 
-Grupp 8: Alexander, Johan, Pär, Erik, Anton
+Grupp 8: Alexander, Johan, Pär, Erik, Anton, Isak
+
+Grupp 9: Matilda
 
