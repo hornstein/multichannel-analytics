@@ -36,3 +36,13 @@
 
 **Lektion 9**
 - [Mobila appar och Rich-media tracking](steg5.md)
+
+**Lektion 10**
+- [Presentation av grupparbete](uppgift1.md)
+
+## Vecka 3
+
+**Lektion 11**
+- [Google Analytics App + Web](steg5.md)
+
+
