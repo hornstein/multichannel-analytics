@@ -43,6 +43,6 @@
 ## Vecka 3
 
 **Lektion 11**
-- [Google Analytics App + Web](steg5.md)
+- [Google Analytics App + Web](ga_app_web.md)
 
 
