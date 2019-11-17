@@ -33,7 +33,7 @@ Efter fullföljd kurs ska den studerande ha färdigheter i att
 
 Kunskap, färdigheter och kompetens examineras på följande sätt:
 - [1 muntligt och skriftligt arbete i grupp](uppgift1.md): I den här laborationen skall ni analysera olika marknadsföringskanaler som referral (banners), social media, nyhetsbrev, och tidning/TV/radio. Verktyg: Data Studio, Power-BI, Google Sheets... 
-- [1 inlämningsuppgift individuell](uppgift2.md): I den här laborationen skall ni analysera en specifik produkt. Verktyg: Jupyter notebooks
+- [1 inlämningsuppgift individuell](uppgift2.md): I den här laborationen skall ni kombinera data från flera källor och analysera en specifik produkt och dess prestation. Verktyg: Data Studio, Power-BI, Google Sheets, alternativt Jupyter notebooks
 
 
 
@@ -57,10 +57,10 @@ Kunskap, färdigheter och kompetens examineras på följande sätt:
 
 
 **Vecka 3**
-- Lektion 11: Introduktion Jupyter notebooks / Python
-- Lektion 12: Läsa in data; csv-filer, google analytics, databaser, BigQuery
-- Lektion 13: Manipulera data; missing data, combine datasets, select data, aggregate data
-- Lektion 14: Visualisera data; correlations, scatter plots, line plots, bar plots
+- Lektion 11: Repetition attributionsmodellering, Google Analytics App + Web, ~~Introduktion Jupyter notebooks / Python~~
+- Lektion 12: Hantering av raw data i BigQuery, ~~Läsa in data; csv-filer, google analytics, databaser, BigQuery~~
+- Lektion 13: Analysera data från Google Analytics 360 i BigQuery ~~Manipulera data; missing data, combine datasets, select data, aggregate data~~
+- Lektion 14: Introduktion Jupyter notebooks / Python, ~~Visualisera data; correlations, scatter plots, line plots, bar plots~~
 - Lektion 15: Uppgift 2: Genomgång av uppgift och handledning
 
 
