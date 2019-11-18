@@ -45,4 +45,5 @@
 **Lektion 11**
 - [Google Analytics App + Web](ga_app_web.md)
 
-
+**Lektion 12**
+- [Google Analytics data i BigQuery](ga_bigquery.md)
