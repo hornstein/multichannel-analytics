@@ -53,4 +53,4 @@
 
 **Lektion 14**
 - Introduktion Jupyter notebooks 
-- https://colab.research.google.com/drive/1nGMXicVXyCveWcFZjdZZ7W4YHoRzOC1r
+- https://colab.research.google.com
