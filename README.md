@@ -52,5 +52,6 @@
 - Övning BigQuery
 
 **Lektion 14**
-- Introduktion Jupyter notebooks 
+- Introduktion Jupyter notebooks
+- https://jakevdp.github.io/PythonDataScienceHandbook/
 - https://colab.research.google.com/drive/19fKLDP90b_TTzXwMS8Bt6Ujur1Y2zDUn
