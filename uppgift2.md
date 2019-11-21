@@ -18,6 +18,6 @@ Uppgiften är alltså att visualisera hur de olika parametrarna påverkar förs�
 
 Inlämningen skall göras i form av en rapport på max 5 sidor. Bifoga också en länk till Data Studio eller Jupyter notebook där det framgår vilken underliggande data som använts för de olika visualiseringarna.
 
-
+Sista inlämningsdag är söndag 1 december.
 
 
