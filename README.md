@@ -55,3 +55,6 @@
 - Introduktion Jupyter notebooks
 - https://jakevdp.github.io/PythonDataScienceHandbook/
 - https://colab.research.google.com/drive/19fKLDP90b_TTzXwMS8Bt6Ujur1Y2zDUn
+
+**Lektion 15**
+- [Inlämningsuppgift 2](uppgift2.md)
