@@ -52,9 +52,9 @@
 - Övning BigQuery
 
 **Lektion 14**
-- Introduktion Jupyter notebooks
-- https://jakevdp.github.io/PythonDataScienceHandbook/
-- https://colab.research.google.com/drive/19fKLDP90b_TTzXwMS8Bt6Ujur1Y2zDUn
+- Python Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/
+- Introduktion Jupyter notebooks: https://colab.research.google.com/drive/19fKLDP90b_TTzXwMS8Bt6Ujur1Y2zDUn
+- Visualisering med Jupyter notebooks: https://colab.research.google.com/drive/1PnA3x9d15CiWJ5AS6WxZ_sUgMUMU0TMB
 
 **Lektion 15**
 - [Inlämningsuppgift 2](uppgift2.md)
