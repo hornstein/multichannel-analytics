@@ -58,8 +58,8 @@
 
 **Lektion 15**
 - [Inlämningsuppgift 2](uppgift2.md)
-- CSV-fil för total försäljning per datum: 
-- https://docs.google.com/spreadsheets/d/1ad6oHKKvOlCiipw5P5ZCuw01vIbKxRWpESJYL3Vzdjk/edit?usp=sharing
-- CSV-fil för total försäljning av artikel 323013 per datum: 
-- https://docs.google.com/spreadsheets/d/18X5-NuaVNDZYWDoU4in91rSFW8HL0YMI5zM4K5WvZro/edit?usp=sharing
+- Total försäljning per datum: https://docs.google.com/spreadsheets/d/1ad6oHKKvOlCiipw5P5ZCuw01vIbKxRWpESJYL3Vzdjk/edit?usp=sharing
+- Total försäljning av artikel 323013 per datum: https://docs.google.com/spreadsheets/d/18X5-NuaVNDZYWDoU4in91rSFW8HL0YMI5zM4K5WvZro/edit?usp=sharing
+- Holiday events: https://docs.google.com/spreadsheets/d/1EL4iuP-bre1G0LiaIxCJT7eWRwfHFf8UUMCO1uQj42A/edit?usp=sharing
+
 
