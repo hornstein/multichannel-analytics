@@ -61,5 +61,8 @@
 - Total försäljning per datum: https://docs.google.com/spreadsheets/d/1ad6oHKKvOlCiipw5P5ZCuw01vIbKxRWpESJYL3Vzdjk/edit?usp=sharing
 - Total försäljning av artikel 323013 per datum: https://docs.google.com/spreadsheets/d/18X5-NuaVNDZYWDoU4in91rSFW8HL0YMI5zM4K5WvZro/edit?usp=sharing
 - Holiday events: https://docs.google.com/spreadsheets/d/1EL4iuP-bre1G0LiaIxCJT7eWRwfHFf8UUMCO1uQj42A/edit?usp=sharing
+ - Items: https://docs.google.com/spreadsheets/d/1Qj0FhPY_72na88t7BE3v2Cvo5zM7QalJ91pvSPI-EHc/edit?usp=sharing
+ - Oil: https://docs.google.com/spreadsheets/d/1JBHJRTpqI6xdpjeAw7hIgkwUPYWXrNiPAiBMiuaLePw/edit?usp=sharing
+ - Stores: https://docs.google.com/spreadsheets/d/1-H5NJ85hoCdUJpL58n4zgYY4C8cPASUCunSbvEf43wY/edit?usp=sharing
 
 
