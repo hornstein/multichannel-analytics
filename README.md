@@ -46,10 +46,10 @@
 - [Google Analytics App + Web](ga_app_web.md)
 
 **Lektion 12**
-- [Google Analytics data i BigQuery](ga_bigquery.md)
+- [Data warehouse](datawarehouse.md)
 
 **Lektion 13**
-- Övning BigQuery
+- [SQL introduktion](sql_introduktion.ipynb)
 
 **Lektion 14**
 - Python Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/
@@ -68,6 +68,7 @@
 
 ## Vecka 4
 
+**Lektion 16**
 - https://jeffdelaney.me/blog/useful-snippets-in-pandas/
 - https://jakevdp.github.io/PythonDataScienceHandbook/03.04-missing-values.html
 - https://colab.research.google.com/drive/1iJWurxyP3ceN_PCjQeUC3vDnFgED_Hpu
