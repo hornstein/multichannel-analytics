@@ -70,3 +70,4 @@
 
 - https://jeffdelaney.me/blog/useful-snippets-in-pandas/
 - https://jakevdp.github.io/PythonDataScienceHandbook/03.04-missing-values.html
+- https://colab.research.google.com/drive/1iJWurxyP3ceN_PCjQeUC3vDnFgED_Hpu
