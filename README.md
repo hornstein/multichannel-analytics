@@ -66,3 +66,7 @@
  - Stores: https://docs.google.com/spreadsheets/d/1-H5NJ85hoCdUJpL58n4zgYY4C8cPASUCunSbvEf43wY/edit?usp=sharing
 
 
+## Vecka 4
+
+- https://jeffdelaney.me/blog/useful-snippets-in-pandas/
+- https://jakevdp.github.io/PythonDataScienceHandbook/03.04-missing-values.html
