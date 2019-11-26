@@ -79,8 +79,7 @@
 - [Övning](övning_ga_app_web.ipynb)
 
 **Lektion 18**
-- Google Analytics 360 data i BigQuery
-- Övning
+- Handledning inlämningsuppgift 2
 
 **Lektion 19**
 - Marketing Mix Modeling
