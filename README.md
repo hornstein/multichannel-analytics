@@ -76,7 +76,7 @@
 **Lektion 17**
 - Google Analytics App + Web data i BigQuery
 - https://colab.research.google.com/drive/1UEhfAqVGu2oxszXc6HWC4nrxGFYIu_G1
-- Övning
+- [Övning](övning_ga_app_web.ipynb)
 
 **Lektion 18**
 - Google Analytics 360 data i BigQuery
