@@ -74,7 +74,7 @@
 - https://jakevdp.github.io/PythonDataScienceHandbook/03.04-missing-values.html
 
 **Lektion 17**
-- Google Analytics App + Web data i BigQuery
+- [Google Analytics App + Web data i BigQuery](ga_appweb.ipynb)
 - https://colab.research.google.com/drive/1UEhfAqVGu2oxszXc6HWC4nrxGFYIu_G1
 - [Övning](övning_ga_app_web.ipynb)
 
