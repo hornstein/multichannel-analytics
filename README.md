@@ -46,10 +46,10 @@
 - [Google Analytics App + Web](ga_app_web.md)
 
 **Lektion 12**
-- [Data warehouse](datawarehouse.md)
+- [Data warehouse - lagra information i BigQuery](datawarehouse.md)
 
 **Lektion 13**
-- [SQL introduktion](sql_introduktion.ipynb)
+- [Data warehouse - hämta information från BigQuery (SQL introduktion)](sql_introduktion.ipynb)
 
 **Lektion 14**
 - Python Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/
@@ -61,14 +61,29 @@
 - Total försäljning per datum: https://docs.google.com/spreadsheets/d/1ad6oHKKvOlCiipw5P5ZCuw01vIbKxRWpESJYL3Vzdjk/edit?usp=sharing
 - Total försäljning av artikel 323013 per datum: https://docs.google.com/spreadsheets/d/18X5-NuaVNDZYWDoU4in91rSFW8HL0YMI5zM4K5WvZro/edit?usp=sharing
 - Holiday events: https://docs.google.com/spreadsheets/d/1EL4iuP-bre1G0LiaIxCJT7eWRwfHFf8UUMCO1uQj42A/edit?usp=sharing
- - Items: https://docs.google.com/spreadsheets/d/1Qj0FhPY_72na88t7BE3v2Cvo5zM7QalJ91pvSPI-EHc/edit?usp=sharing
- - Oil: https://docs.google.com/spreadsheets/d/1JBHJRTpqI6xdpjeAw7hIgkwUPYWXrNiPAiBMiuaLePw/edit?usp=sharing
- - Stores: https://docs.google.com/spreadsheets/d/1-H5NJ85hoCdUJpL58n4zgYY4C8cPASUCunSbvEf43wY/edit?usp=sharing
+- Items: https://docs.google.com/spreadsheets/d/1Qj0FhPY_72na88t7BE3v2Cvo5zM7QalJ91pvSPI-EHc/edit?usp=sharing
+- Oil: https://docs.google.com/spreadsheets/d/1JBHJRTpqI6xdpjeAw7hIgkwUPYWXrNiPAiBMiuaLePw/edit?usp=sharing
+- Stores: https://docs.google.com/spreadsheets/d/1-H5NJ85hoCdUJpL58n4zgYY4C8cPASUCunSbvEf43wY/edit?usp=sharing
 
 
 ## Vecka 4
 
 **Lektion 16**
+- Data cleaning med Jupyter notebooks: https://colab.research.google.com/drive/1iJWurxyP3ceN_PCjQeUC3vDnFgED_Hpu
 - https://jeffdelaney.me/blog/useful-snippets-in-pandas/
 - https://jakevdp.github.io/PythonDataScienceHandbook/03.04-missing-values.html
-- https://colab.research.google.com/drive/1iJWurxyP3ceN_PCjQeUC3vDnFgED_Hpu
+
+**Lektion 17**
+- Google Analytics App + Web data i BigQuery
+- https://colab.research.google.com/drive/1UEhfAqVGu2oxszXc6HWC4nrxGFYIu_G1
+- Övning
+
+**Lektion 18**
+- Google Analytics 360 data i BigQuery
+- Övning
+
+**Lektion 19**
+- Marketing Mix Modeling
+
+**Lektion 20**
+- Sammanfattning av kurs + handledning inlämningsuppgift 2
