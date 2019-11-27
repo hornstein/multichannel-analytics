@@ -14,7 +14,7 @@
 
 **Lektion 4**
 - [Uppsättning av sajt](testsite.md)
-- [Signifikanstestning](signifikanstestning.ipynb)
+- [Signifikanstestning](signifikanstestning.ipynb) [![open in colab](images/colab-badge.svg)](https://colab.research.google.com/github/hornstein/multichannel-analytics/blob/master/signifikanstestning.ipynb)
 - T-test: "Tillämpad statistik - en grundkurs", kaptiel 7.3 (sidorna 192-195)
 
 **Lektion 5**
@@ -49,40 +49,35 @@
 - [Data warehouse - lagra information i BigQuery](datawarehouse.md)
 
 **Lektion 13**
-- [Data warehouse - hämta information från BigQuery (SQL introduktion)](sql_introduktion.ipynb)
+- [Data warehouse - hämta information från BigQuery (SQL introduktion)](sql_introduktion.ipynb) [![open in colab](images/colab-badge.svg)](https://colab.research.google.com/drive/12hRP-eHS-LHsJsD5C9duOQS4BIMshYlI)
 
 **Lektion 14**
 - [Introduktion Jupyter notebooks](introduktion.ipynb): [![open in colab](images/colab-badge.svg)](https://colab.research.google.com/drive/1nGMXicVXyCveWcFZjdZZ7W4YHoRzOC1r)
-- Visualisering med Jupyter notebooks: [![open in colab](images/colab-badge.svg)](https://colab.research.google.com/drive/1PnA3x9d15CiWJ5AS6WxZ_sUgMUMU0TMB)
+- [Visualisering med Jupyter notebooks](Visualisering.ipynb) [![open in colab](images/colab-badge.svg)](https://colab.research.google.com/drive/1PnA3x9d15CiWJ5AS6WxZ_sUgMUMU0TMB)
 - Python Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/
 
 
 **Lektion 15**
 - [Inlämningsuppgift 2](uppgift2.md)
-- Total försäljning per datum: https://docs.google.com/spreadsheets/d/1ad6oHKKvOlCiipw5P5ZCuw01vIbKxRWpESJYL3Vzdjk/edit?usp=sharing
-- Total försäljning av artikel 323013 per datum: https://docs.google.com/spreadsheets/d/18X5-NuaVNDZYWDoU4in91rSFW8HL0YMI5zM4K5WvZro/edit?usp=sharing
-- Holiday events: https://docs.google.com/spreadsheets/d/1EL4iuP-bre1G0LiaIxCJT7eWRwfHFf8UUMCO1uQj42A/edit?usp=sharing
-- Items: https://docs.google.com/spreadsheets/d/1Qj0FhPY_72na88t7BE3v2Cvo5zM7QalJ91pvSPI-EHc/edit?usp=sharing
-- Oil: https://docs.google.com/spreadsheets/d/1JBHJRTpqI6xdpjeAw7hIgkwUPYWXrNiPAiBMiuaLePw/edit?usp=sharing
-- Stores: https://docs.google.com/spreadsheets/d/1-H5NJ85hoCdUJpL58n4zgYY4C8cPASUCunSbvEf43wY/edit?usp=sharing
+- Länkar till data har flyttats till dokumentet inlämningsuppgift 2 ovan...
 
 
 ## Vecka 4
 
 **Lektion 16**
-- Data cleaning med Jupyter notebooks: [![open in colab](images/colab-badge.svg)](https://colab.research.google.com/drive/1iJWurxyP3ceN_PCjQeUC3vDnFgED_Hpu)
+- [Data cleaning med Jupyter notebooks](cleaning.ipynb): [![open in colab](images/colab-badge.svg)](https://colab.research.google.com/drive/1iJWurxyP3ceN_PCjQeUC3vDnFgED_Hpu)
 - https://jeffdelaney.me/blog/useful-snippets-in-pandas/
 - https://jakevdp.github.io/PythonDataScienceHandbook/03.04-missing-values.html
 
 **Lektion 17**
 - [Google Analytics App + Web data i BigQuery](ga_appweb.ipynb) [![open in colab](images/colab-badge.svg)](https://colab.research.google.com/drive/1UEhfAqVGu2oxszXc6HWC4nrxGFYIu_G1)
-- [Övning](övning_ga_app_web.ipynb)
+- [Övning](övning_ga_app_web.ipynb) [![open in colab](images/colab-badge.svg)](https://colab.research.google.com/drive/1c6YN_k0sLsdnUw-EJvWK8u2YtBfNSea8)
 
 **Lektion 18**
 - Handledning inlämningsuppgift 2
 
 **Lektion 19**
-- [Marketing Mix Modeling](mmm.ipynb)
+- [Marketing Mix Modeling](mmm.ipynb) [![open in colab](images/colab-badge.svg)](https://colab.research.google.com/drive/10EIJdaBxe8HZ-wAbMwVESLB6wVmKpKC1)
 
 **Lektion 20**
 - Sammanfattning av kurs + handledning inlämningsuppgift 2
