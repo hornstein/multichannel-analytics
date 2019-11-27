@@ -82,7 +82,7 @@
 - Handledning inlämningsuppgift 2
 
 **Lektion 19**
-- Marketing Mix Modeling
+- [Marketing Mix Modeling](mmm.ipynb)
 
 **Lektion 20**
 - Sammanfattning av kurs + handledning inlämningsuppgift 2
