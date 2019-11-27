@@ -13,14 +13,15 @@
 - [Konfigurera Google Analytics](steg2.md)
 
 **Lektion 4**
-- T-test: "Tillämpad statistik - en grundkurs", kaptiel 7.3 (sidorna 192-195)
 - [Uppsättning av sajt](testsite.md)
+- [Signifikanstestning](signifikanstestning.ipynb)
+- T-test: "Tillämpad statistik - en grundkurs", kaptiel 7.3 (sidorna 192-195)
 
 **Lektion 5**
 - [Kampanjtracking, online/offline](steg3.md)
 - [Genomgång av inlämningsuppgift 1](uppgift1.md)
 - [Läsa kunddata från CSV, databas, BigQuery](crm_data.md)
-- [customerdata.csv](customerdata.csv)
+- [customerdata.csv](data/customerdata.csv)
 
 ## Vecka 2
 
@@ -28,8 +29,7 @@
 - [E-handelstracking och user id](steg4.md)
 
 **Lektion 7**
-- Exempel på datahantering i Google Sheets: 
-- https://docs.google.com/spreadsheets/d/1dQl75TufiqF6lYW7Hdk3eGMBeAjfTeFFSfJtEKvJgI8/edit?usp=sharing
+- Google Sheets: [Exempel på datahantering](https://docs.google.com/spreadsheets/d/1dQl75TufiqF6lYW7Hdk3eGMBeAjfTeFFSfJtEKvJgI8/edit?usp=sharing)
 
 **Lektion 8**
 - Powerpoint presentation: [Attributionsmodellering](Attributionsmodellering.pdf) 
@@ -52,9 +52,10 @@
 - [Data warehouse - hämta information från BigQuery (SQL introduktion)](sql_introduktion.ipynb)
 
 **Lektion 14**
+- [Introduktion Jupyter notebooks](introduktion.ipynb): [![open in colab](images/colab-badge.svg)](https://colab.research.google.com/drive/1nGMXicVXyCveWcFZjdZZ7W4YHoRzOC1r)
+- Visualisering med Jupyter notebooks: [![open in colab](images/colab-badge.svg)](https://colab.research.google.com/drive/1PnA3x9d15CiWJ5AS6WxZ_sUgMUMU0TMB)
 - Python Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/
-- Introduktion Jupyter notebooks: https://colab.research.google.com/drive/19fKLDP90b_TTzXwMS8Bt6Ujur1Y2zDUn
-- Visualisering med Jupyter notebooks: https://colab.research.google.com/drive/1PnA3x9d15CiWJ5AS6WxZ_sUgMUMU0TMB
+
 
 **Lektion 15**
 - [Inlämningsuppgift 2](uppgift2.md)
@@ -69,13 +70,12 @@
 ## Vecka 4
 
 **Lektion 16**
-- Data cleaning med Jupyter notebooks: https://colab.research.google.com/drive/1iJWurxyP3ceN_PCjQeUC3vDnFgED_Hpu
+- Data cleaning med Jupyter notebooks: [![open in colab](images/colab-badge.svg)](https://colab.research.google.com/drive/1iJWurxyP3ceN_PCjQeUC3vDnFgED_Hpu)
 - https://jeffdelaney.me/blog/useful-snippets-in-pandas/
 - https://jakevdp.github.io/PythonDataScienceHandbook/03.04-missing-values.html
 
 **Lektion 17**
-- [Google Analytics App + Web data i BigQuery](ga_appweb.ipynb)
-- https://colab.research.google.com/drive/1UEhfAqVGu2oxszXc6HWC4nrxGFYIu_G1
+- [Google Analytics App + Web data i BigQuery](ga_appweb.ipynb) [![open in colab](images/colab-badge.svg)](https://colab.research.google.com/drive/1UEhfAqVGu2oxszXc6HWC4nrxGFYIu_G1)
 - [Övning](övning_ga_app_web.ipynb)
 
 **Lektion 18**
